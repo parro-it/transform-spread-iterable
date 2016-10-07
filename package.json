@@ -4,7 +4,7 @@
   "description": "An iterable transform that spread each iterable received and emit its items",
   "scripts": {
     "test": "ava && xo",
-    "setup": "",
+    "setup": "echo no setup",
     "cover-test": "nyc ava && xo",
     "cover-publish": "nyc report --reporter=text-lcov | coveralls"
   },

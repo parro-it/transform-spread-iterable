@@ -20,6 +20,13 @@ This will output
 hello warld
 ```
 
+[![Travis Build Status](https://img.shields.io/travis/parro-it/transform-spread-iterable/master.svg)](http://travis-ci.org/parro-it/transform-spread-iterable)
+[![Coveralls](https://img.shields.io/coveralls/parro-it/transform-spread-iterable.svg?maxAge=2592000)](https://coveralls.io/github/parro-it/transform-spread-iterable)
+[![NPM module](https://img.shields.io/npm/v/transform-spread-iterable.svg)](https://npmjs.org/package/transform-spread-iterable)
+[![NPM downloads](https://img.shields.io/npm/dt/transform-spread-iterable.svg)](https://npmjs.org/package/transform-spread-iterable)
+
+[![Try online](https://img.shields.io/badge/try_it-online!-yellow.svg)](https://vorpaljs.github.io/transform-spread-iterable/)
+
 ## API
 
 ```js
