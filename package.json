@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "An iterable transform that spread each iterable received and emit its items",
   "scripts": {
-    "test": "ava && xo"
+    "test": "ava && xo",
+    "setup": "",
+    "cover-test": "nyc ava && xo",
+    "cover-publish": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [],
   "author": "Andrea Parodi <andrea@parro.it>",
@@ -13,6 +16,8 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
+    "coveralls": "^2.11.14",
+    "nyc": "^8.3.0",
     "xo": "^0.16.0"
   },
   "repository": "parro-it/transform-spread-iterable"
