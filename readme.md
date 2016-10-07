@@ -21,6 +21,7 @@ hello warld
 ```
 
 [![Travis Build Status](https://img.shields.io/travis/parro-it/transform-spread-iterable/master.svg)](http://travis-ci.org/parro-it/transform-spread-iterable)
+[![Code Climate](https://img.shields.io/codeclimate/github/parro-it/transform-spread-iterable.svg)](https://codeclimate.com/github/parro-it/transform-spread-iterable)
 [![Coveralls](https://img.shields.io/coveralls/parro-it/transform-spread-iterable.svg?maxAge=2592000)](https://coveralls.io/github/parro-it/transform-spread-iterable)
 [![NPM downloads](https://img.shields.io/npm/dt/transform-spread-iterable.svg)](https://npmjs.org/package/transform-spread-iterable)
 
