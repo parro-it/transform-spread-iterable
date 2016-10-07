@@ -1,6 +1,6 @@
 {
   "name": "transform-spread-iterable",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "An iterable transform that spread each iterable received and emit its items",
   "scripts": {
     "test": "ava && xo --ignore example.js",
