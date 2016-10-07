@@ -1,6 +1,4 @@
-'use strict';
-
-function * merge(source) {
+export default function * spread(source) {
 	for (const item of source) {
 		if (typeof item[Symbol.iterator] === 'function') {
 			yield * item;
@@ -9,5 +7,3 @@ function * merge(source) {
 		}
 	}
 }
-
-module.exports = merge;
