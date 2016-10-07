@@ -17,6 +17,7 @@
   "files": [
     "index.js"
   ],
+  "tonicExampleFilename": "example.js",
   "babel": {
     "plugins": [
       "transform-es2015-modules-commonjs"

@@ -6,18 +6,26 @@ background details relevant to understanding what this module does
 
 ## Usage
 
-Let's do X:
+Let's spread the `arr` array, each item of `arr` will became an item of resulting iterable:
 
 ```js
-var transformSpreadIterable = require('transform-spread-iterable')
+const spread = require('transform-spread-operator');
 
-console.log('hello warld')
+const arr = [1, 2, 3];
+
+for (const item of spread([arr, 42, 43])) {
+	console.log({item});
+}
 ```
 
 This will output
 
 ```
-hello warld
+{item :1}
+{item :2}
+{item :3}
+{item :42}
+{item :43}
 ```
 
 [![Travis Build Status](https://img.shields.io/travis/parro-it/transform-spread-iterable/master.svg)](http://travis-ci.org/parro-it/transform-spread-iterable)
@@ -30,10 +38,10 @@ hello warld
 ## API
 
 ```js
-var transformSpreadIterable = require('transform-spread-iterable')
+const spread = (iterable: Iterable): Iterable
 ```
 
-See [api_formatting.md](api_formatting.md) for tips.
+Given a source iterable, return an iterable with all source item that are iterable spreaded.
 
 ## Install
 
@@ -43,14 +51,10 @@ With [npm](https://npmjs.org/) installed, run
 $ npm install transform-spread-iterable
 ```
 
-## Acknowledgments
-
-transform-spread-iterable was inspired by..
 
 ## See Also
 
 - [`noffle/common-readme`](https://github.com/noffle/common-readme)
-- ...
 
 ## License
 
