@@ -3,9 +3,9 @@
   "version": "1.2.0",
   "description": "An iterable transform that spread each iterable received and emit its items",
   "scripts": {
-    "test": "ava && xo",
+    "test": "ava && xo --ignore example.js",
     "setup": "rollup -f cjs main.js --output index.js",
-    "cover-test": "nyc ava && xo",
+    "cover-test": "nyc ava && xo --ignore example.js",
     "cover-publish": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [],
