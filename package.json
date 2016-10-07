@@ -1,0 +1,19 @@
+{
+  "name": "transform-spread-iterable",
+  "version": "1.0.0",
+  "description": "An iterable transform that spread each iterable received and emit its items",
+  "scripts": {
+    "test": "ava && xo"
+  },
+  "keywords": [],
+  "author": "Andrea Parodi <andrea@parro.it>",
+  "license": "MIT",
+  "dependencies": {
+    "curry": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.16.0"
+  },
+  "repository": "parro-it/transform-spread-iterable"
+}
