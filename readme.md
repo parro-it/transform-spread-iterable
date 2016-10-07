@@ -9,7 +9,7 @@ background details relevant to understanding what this module does
 Let's spread the `arr` array, each item of `arr` will became an item of resulting iterable:
 
 ```js
-const spread = require('transform-spread-operator');
+const spread = require('transform-spread-iterable');
 
 const arr = [1, 2, 3];
 
