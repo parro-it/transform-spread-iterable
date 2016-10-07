@@ -15,7 +15,8 @@
     "curry": "^1.2.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "example.js"
   ],
   "tonicExampleFilename": "example.js",
   "babel": {
