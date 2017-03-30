@@ -1,6 +1,5 @@
-import 'babel-register';
 import test from 'ava';
-import spread from './main';
+import spread from '.';
 
 test('command with one argument', t => {
 	const result = Array.from(spread([[1, 2, 3], 42, 43]));

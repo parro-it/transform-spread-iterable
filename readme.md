@@ -1,5 +1,7 @@
 # transform-spread-iterable
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/transform-spread-iterable.svg)](https://greenkeeper.io/)
+
 > An iterable transform that spread each iterable received and emit its items
 
 background details relevant to understanding what this module does
