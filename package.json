@@ -28,7 +28,7 @@
   "jsnext:main": "main.js",
   "devDependencies": {
     "ava": "^0.21.0",
-    "rollup": "^0.45.2",
+    "rollup": "^0.47.6",
     "xo": "^0.18.1"
   },
   "repository": "parro-it/transform-spread-iterable"
